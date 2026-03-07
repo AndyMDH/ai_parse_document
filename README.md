@@ -14,7 +14,7 @@ A Bronze → Silver medallion pattern for extracting structured fields from hosp
 2. Set the three variables in the config cell (`PDF_PATH`, `CATALOG`, `SCHEMA`)
 3. Run top to bottom
 
-All PDFs in `data/` are synthetic — no real patient data.
+All PDFs in `data/` are synthetic – no real patient data.
 
 ## Author
-Andy Ho — [LinkedIn](https://www.linkedin.com/in/andy-h0925/)
+Andy Ho – [LinkedIn](https://www.linkedin.com/in/andy-h0925/)
