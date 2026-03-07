@@ -1,6 +1,6 @@
 # Databricks Discharge Summary POC
 
-Companion notebook to the blog post **[ai_parse_document on Databricks Looks Like Magic. Here's What to Solve Before Production.](https://xebia.com/blog/ai-parse-document-looks-like-magic-here-s-what-breaks-in-production/)**
+Companion notebook to the blog post **[ai_parse_document on Databricks SQL Looks Like Magic. Here's What to Solve Before Production.](https://xebia.com/blog/ai-parse-document-on-databricks-sql-looks-like-magic-here-s-what-breaks-in-production/)**
 
 A Bronze → Silver medallion pattern for extracting structured fields from hospital discharge summaries using `ai_parse_document` and `ai_query`. Proof-of-concept, not a production pipeline.
 
