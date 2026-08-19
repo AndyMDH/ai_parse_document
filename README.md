@@ -10,7 +10,7 @@ This is a proof-of-concept, not a production pipeline.
 
 ```
 .
-├── healthcare_pipeline.ipynb   # Main notebook — run this
+├── document_parsing_pipeline.ipynb   # Main notebook — run this
 └── data/
     └── discharge_pdfs.zip      # Synthetic discharge summaries (no real patient data)
 ```
@@ -26,7 +26,7 @@ This is a proof-of-concept, not a production pipeline.
 ## Getting started
 
 1. Extract `data/discharge_pdfs.zip` to a UC Volume or Workspace folder
-2. Import `healthcare_pipeline.ipynb` into your Databricks workspace
+2. Import `document_parsing_pipeline.ipynb` into your Databricks workspace
 3. Set the four variables in the config cell:
    - `PDF_PATH` — path to the extracted PDFs
    - `CATALOG` — your Unity Catalog name
