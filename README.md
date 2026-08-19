@@ -1,6 +1,6 @@
 # The Hidden Cost of ai_parse_document in Production
 
-Companion notebook for the blog post **[The Hidden Cost of ai_parse_document in Production](https://xebia.com/blog/ai-parse-document-on-databricks-sql-looks-like-magic-here-s-what-breaks-in-production/)**.
+Companion notebook for the blog post **[The Hidden Cost of ai_parse_document in Production](https://xebia.com/blog/hidden-cost-ai-parse-document-production-databricks/)**.
 
 A Bronze → Silver medallion pattern for extracting structured fields from hospital discharge summaries using `ai_parse_document` and `ai_query`. Demonstrates the gap between a proof-of-concept query and a production-ready pipeline: deduplication, streaming checkpoints, prompt versioning, pseudonymisation, and noise stripping.
 
@@ -14,6 +14,8 @@ This is a proof-of-concept, not a production pipeline.
 └── data/
     └── discharge_pdfs.zip      # Synthetic discharge summaries (no real patient data)
 ```
+
+> **Note:** The sample set here is scanned/OCR documents only. The "digitally-born vs. scanned" comparison and `_digital.pdf` filenames in the blog post are illustrative of the pattern, not files included in this zip.
 
 ## Requirements
 
